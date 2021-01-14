@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+       table, th, td {
+            border: 0.5px solid black;
+            border-collapse: collapse;
+        } 
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Student Table</h2>
+    <table style="text-align: center; margin-left: auto;margin-right: auto; height: 7.5cm; width: 12.5cm;">
+        <tr>
+            <th>Roll No.</th>
+            <th>Name</th>
+            <th colspan="2">Subject Wise Marks</th>
+            <th>Average</th>
+            <th>SGPA</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td rowspan="4">1929018</td>
+            <td rowspan="4">Kaustav Saha</td>
+            <td>Subject 1</td>
+            <td>40</td>
+            <td rowspan="4">40</td>
+            <td rowspan="4">5</td>
+            <td rowspan="4">A</td>
+        </tr>
+        <tr>    
+            <td>Subject 2</td>
+            <td>40</td>
+        </tr>
+        <tr>  
+            <td>Subject 3</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>Subject 4</td>
+            <td>40</td>
+        </tr>
+    </table>
+</body>
+</html>
